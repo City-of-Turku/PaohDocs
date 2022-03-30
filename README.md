@@ -6,6 +6,10 @@ Palveluohjainbotti on tuotettu Turun kaupungin ja Varsinais-Suomen Sairaanhoitop
 
 Tutustu [Palveluohjainta esittelevään Power Point -esitykseen](/.attachments/bottiesittely.pptx). (Sama esitys löytyy myös [PDF-muodossa](/.attachments/bottiesittely.pdf)).
 
+Palveluohjaimen käyttöliittymä (_keväällä 2022_):
+
+![palveluohjain-verkkopalvelu.png](.attachments/palveluohjain-verkkopalvelu.png)
+
 ---
 
 ### Dokumentaation sisältö
@@ -55,7 +59,3 @@ Palveluohjaimen eri komponentit ja työkalut jakautuvat seuraaviin yhdeksään r
 - [PaohWebFrontend](https://github.com/City-of-Turku/PaohWebFrontend) sisältää [palveluohjaaja.fi:ssä](https://palveluohjaaja.fi) nähtävän web-käyttöliittymän
 - [PaohYTRServiceDataImport](https://github.com/City-of-Turku/PaohYTRServiceDataImport) palveluiden hakemiseen Kompassi-YTR:stä (ei aktiivikäytössä)
 - [rasa-webchat](https://github.com/City-of-Turku/rasa-webchat) sisältää chatwidgetin, jonka kautta käyttäjä keskustelee botin kanssa verkkosivulla
-
-## Yhteystiedot
-
-Lisätietoa...
