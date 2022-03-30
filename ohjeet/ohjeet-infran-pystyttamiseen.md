@@ -39,6 +39,9 @@ Tällä sivulla kuvataan tarvittavat vaiheet Palveluohjaimen teknisen infran pys
 
 Itse arkkitehtuuri on rakennettu avoimen lähdekoodin kontitetuin ratkaisuin, joten tarvittaesssa järjestelmän voi pystyttää toiseenkiin pilveen, kuten AWS, tai konesaliin, mutta tämä ohje keskittyy Azureen.
 
+Tätä ohjetta ei ole täydellisesti vaiheittain testattu uuden Azure-ympäristön kanssa, joten tätä rakentaessa on hyvä varautua ratkaisemaan pieniä mahdollisia ongelmia, jotka voivat johtua esim. muutoksista käytetyissä työkaluissa tai Azure-alustan muutoksista.
+
+
 # 1. Azure infran ja resurssien pystytys
 
 Palveluohjaimen yleinen arkkitehtuuri on kuvattu wikissä sivulla [Arkkitehtuuri](/arkkitehtuuri.md) ja tarkempi Azure arkkitehtuuri sivulla [Azure ja infra arkkitehtuuri](/azure-arkkitehtuuri.md).
@@ -216,6 +219,8 @@ Kaikissa repoissa, joista on tarkoitus tehdä deployauksia Azureen, löytyy repo
 Jotta pipelinet toimivat, DevOps vaatii service connectionien luomisen Azureen. Se onnistuu DevOpsin `Project Settings -> Service Connections` valikosta. Palveluohjaimen tapauksessa käytössä on `Azure Resource Manager`, `Kubernetes` ja `Docker Registry ` -tyyppisiä service connectioneja kaikkiin käytössä oleviin Azuren resource grouppeihin, joihin halutaan ajaa pipeline deployauksia. Service Connectionien luominen vaatii todennäköisesti Azuren/Devopsin Admin tason käyttäjän, jolla on oikeuksia konfiguroida Azuren AD sekä myös DevOpsia.
 
 Repojen `azure-pipelines.yml` konfiguraatiot hyödyntävät DevOpsin Pipelinen `Variable Groups` -ominaisuutta, jossa voidaan määritellä pipelineille yhteisiä muuttujia ja niiden arvoja. Esim. tuotannon pipelinet hyödyntävät Variable Grouppia nimeltä `tku-paoh-tuot-variable-group`. Variable Groupit ovat myös yhdistetty Azuren Key Vaulttiin, josta voidaan lukea esim. autentikaatiotokeneita. Täten suurin osa pipelinejen käyttämistä muuttujista tulee Azuren Key Vaultista ja ne on asetettu siellä.
+
+Nykyisiin arvoihin pääsee käsiksi Key Vaultin `secrets`-osiosta. Tämä vaatii nykyisillä Key Vaultin asetuksilla uultavasti admin-oikeudet.
 
 ## Muuttujat
 

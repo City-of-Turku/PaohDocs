@@ -14,6 +14,10 @@ Botissa ja FrontEndissa on palautelinkki Turun palautelomakkeelle. Siirryttäess
 
 Teknisissä nimissä on myös mallia `tku-paoh-test-aks` tai vastaavia viitteitä Turkuun. Älä muuta näitä, jotta integraatiot eivät hajoaisi. Tekniset nimet eivät näy ulospäin käyttäjälle.
 
+WebFrontendissä ja sen Bicep-templaatissa on integraatio nykyiseen DevOps-ympäristöön. Toiseen paikkaan pystytettynä tämä pitää muuttaa toiseksi.
+
+Nykyisessä chatbot-projektissa on myös Botfrontin puolella määritelty integraatiorepositorioksi chatbot-projektille nykyinen Turun DevOps-repositorio `Settings` -> `Git credentials` alta. Muualle pystytettäessä tämä täytyy muuttaa toiseksi.
+
 ## Pystytys muualle kuin Azureen
 
 Palvelu on kehitetty käyttäen pääasiassa Docker-kontteja, joten sen pystytys toiseen ympäristöön voi olla suhteellisen suoraviivaista, mutta vaatii silti monien työkalujen korvaamista. Suositeltavaa on joka tapauksessa käyttää Kubernetesia konttien ajamiseen. Näiden väliset yhteydet ja kommunikaatio on pitkälti rakennettu niin, että ne ovat samassa klusterissa. Monien sivupalveluiden, kuten kääntäjän, DNS Zonen ym. kanssa joutuu kuitenkin etsimään korvaavat palvelut, mikä ei välttämättä ole helppoa tai edes mahdollista.
