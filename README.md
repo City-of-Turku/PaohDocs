@@ -43,9 +43,9 @@ Palveluohjaimen eri komponentit ja työkalut jakautuvat seuraaviin yhdeksään r
 
 - [PaohAzureInfra](https://github.com/City-of-Turku/PaohAzureInfra) sisältää Bicep-templatet Palveluohjaimen Azure-resurssien pystyttämiseen
 - [PaohBotfront](https://github.com/City-of-Turku/PaohBotfront) on chatbotin ylläpitoon käytettävä työkalu, jota on tämän projektin puitteissa muokattu ja jatkokehitetty
-- [PaohBotfrontChatbotProject](https://github.com/City-of-Turku/PaohBotfrontChatbotProject) sisältää Rasa-pohjaisen chatbotin
-- [PaohRasaForBotfront](https://github.com/City-of-Turku/PaohRasaForBotfront)
-- [PaohRasaPlatform](https://github.com/City-of-Turku/PaohRasaPlatform)
+- [PaohBotfrontChatbotProject](https://github.com/City-of-Turku/PaohBotfrontChatbotProject) sisältää Rasa-pohjaisen chatbotin viimeisimmän julkaistun version projektin lopulta
+- [PaohRasaForBotfront](https://github.com/City-of-Turku/PaohRasaForBotfront) on Rasan versio, jota on muokattu yhteensopivaksi yllä mainittua muokattua Botfront-repositoriota varten
+- [PaohRasaPlatform](https://github.com/City-of-Turku/PaohRasaPlatform) sisältää Rasan käyttämän Rasa actions -palvelun toiminnot sekä joitain Rasan resursseja, joita on kehitetty juuri Palveluohjainta varten
 - [PaohServiceDataImport](https://github.com/City-of-Turku/PaohServiceDataImport) palveluiden hausta (palvelusuosittelijan käyttöön) vastaava palvelu
 - [PaohServiceMatchEngine](https://github.com/City-of-Turku/PaohServiceMatchEngine) Palveluohjaimen "taustamoottorina" toimiva palvelusuosittelija
 - [PaohWebFrontend](https://github.com/City-of-Turku/PaohWebFrontend) sisältää [palveluohjaaja.fi:ssä](https://palveluohjaaja.fi) nähtävän web-käyttöliittymän
