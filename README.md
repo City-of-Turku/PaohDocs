@@ -1,6 +1,15 @@
 # Palveluohjain - Dokumentaatio <!-- omit in toc -->
 
-TODO: Lyhyt muutaman lauseen intro???
+Palveluohjain on avoimen lähdekoodin RASA-bottiin pohjautuva tekoälysovellus, joka tuottaa palveluehdotuksia käyttäjän kanssa käytyjen keskustelujen perusteella. Palvelutietovarantona toimii Suomi.fi-palvelutietovaranto.
+
+Palveluohjainbotti on tuotettu Turun kaupungin ja Varsinais-Suomen Sairaanhoitopiirin yhteishankkeena Valtiovarainministeriön rahoituksella.
+
+> Tutustu [Palveluohjainta esittelevään Power Point -esitykseen](/.attachments/bottiesittely.pptx). <br>
+> (Sama esitys löytyy myös [PDF-muodossa](/.attachments/bottiesittely.pdf)).
+
+Palveluohjaimen käyttöliittymä (_keväällä 2022_):
+
+![palveluohjain-verkkopalvelu.png](.attachments/palveluohjain-verkkopalvelu.png)
 
 ---
 
@@ -50,7 +59,4 @@ Palveluohjaimen eri komponentit ja työkalut jakautuvat seuraaviin yhdeksään r
 - [PaohServiceMatchEngine](https://github.com/City-of-Turku/PaohServiceMatchEngine) Palveluohjaimen "taustamoottorina" toimiva palvelusuosittelija
 - [PaohWebFrontend](https://github.com/City-of-Turku/PaohWebFrontend) sisältää [palveluohjaaja.fi:ssä](https://palveluohjaaja.fi) nähtävän web-käyttöliittymän
 - [PaohYTRServiceDataImport](https://github.com/City-of-Turku/PaohYTRServiceDataImport) palveluiden hakemiseen Kompassi-YTR:stä (ei aktiivikäytössä)
-
-## Yhteystiedot
-
-Lisätietoa...
+- [rasa-webchat](https://github.com/City-of-Turku/rasa-webchat) sisältää chatwidgetin, jonka kautta käyttäjä keskustelee botin kanssa verkkosivulla
