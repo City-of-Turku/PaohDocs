@@ -4,7 +4,7 @@ Palveluohjain on avoimen lähdekoodin RASA-bottiin pohjautuva tekoälysovellus, 
 
 Palveluohjainbotti on tuotettu Turun kaupungin ja Varsinais-Suomen Sairaanhoitopiirin yhteishankkeena Valtiovarainministeriön rahoituksella.
 
-Tutustu [Palveluohjainta esittelevään Power Point -esitykseen](/.attachments/bottiesittely.pptx). (Sama esitys löytyy myös [PDF-muodossa](/.attachments/bottiesittely.pdf)).
+> Tutustu [Palveluohjainta esittelevään Power Point -esitykseen](/.attachments/bottiesittely.pptx). (Sama esitys löytyy myös [PDF-muodossa](/.attachments/bottiesittely.pdf)).
 
 Palveluohjaimen käyttöliittymä (_keväällä 2022_):
 
