@@ -54,6 +54,7 @@ Palveluohjaimen eri komponentit ja työkalut jakautuvat seuraaviin yhdeksään r
 - [PaohServiceMatchEngine](https://github.com/City-of-Turku/PaohServiceMatchEngine) Palveluohjaimen "taustamoottorina" toimiva palvelusuosittelija
 - [PaohWebFrontend](https://github.com/City-of-Turku/PaohWebFrontend) sisältää [palveluohjaaja.fi:ssä](https://palveluohjaaja.fi) nähtävän web-käyttöliittymän
 - [PaohYTRServiceDataImport](https://github.com/City-of-Turku/PaohYTRServiceDataImport) palveluiden hakemiseen Kompassi-YTR:stä (ei aktiivikäytössä)
+- [rasa-webchat](https://github.com/City-of-Turku/rasa-webchat) sisältää chatwidgetin, jonka kautta käyttäjä keskustelee botin kanssa verkkosivulla
 
 ## Yhteystiedot
 
