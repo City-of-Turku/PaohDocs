@@ -1,14 +1,15 @@
 # Palveluohjain - Dokumentaatio <!-- omit in toc -->
 
-Palveluohjain on avoimen lähdekoodin RASA-bottiin pohjautuva tekoälysovellus, joka tuottaa palveluehdotuksia käyttäjän kanssa käytyjen keskustelujen perusteella. Palvelutietovarantona toimii Suomi.fi-palvelutietovaranto. 
+Palveluohjain on avoimen lähdekoodin RASA-bottiin pohjautuva tekoälysovellus, joka tuottaa palveluehdotuksia käyttäjän kanssa käytyjen keskustelujen perusteella. Palvelutietovarantona toimii Suomi.fi-palvelutietovaranto.
 
 Palveluohjainbotti on tuotettu Turun kaupungin ja Varsinais-Suomen Sairaanhoitopiirin yhteishankkeena Valtiovarainministeriön rahoituksella.
+
 ---
 
 ### Dokumentaation sisältö
 
 - [Arkkitehtuuri](arkkitehtuuri.md)
-- [Azure- ja infra-arkkitehtuuri](azure-arkkitehtuuPri.md)
+- [Azure- ja infra-arkkitehtuuri](azure-arkkitehtuuri.md)
 - [Design ja saavutettavuus](design-ja-saavutettavuus.md) -sivulta löytyvät mm. Palveluohjaimen "logot"
 - [Jatkokehitys (ideoita)](/jatkokehitys/README.md)
 - [Julkaisut (release notes)](julkaisut-release-notes.md)
