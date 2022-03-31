@@ -7,7 +7,11 @@ Palveluohjainbotti on tuotettu Turun kaupungin ja Varsinais-Suomen Sairaanhoitop
 > Tutustu [Palveluohjainta esittelevään Power Point -esitykseen](/.attachments/bottiesittely.pptx). <br>
 > (Sama esitys löytyy myös [PDF-muodossa](/.attachments/bottiesittely.pdf)).
 
-Palveluohjaimen käyttöliittymä (_keväällä 2022_):
+Palveluohjaimen esittely mobiililaitteella:
+
+![palveluohjain.gif](.attachments/palveluohjain.gif)
+
+Palveluohjain käyttöliittymä isommalla näytöllä (_keväällä 2022_):
 
 ![palveluohjain-verkkopalvelu.png](.attachments/palveluohjain-verkkopalvelu.png)
 
